@@ -207,6 +207,7 @@ main .achievement .achievement-container .achievement-content .achievement-box-c
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     width: 49%;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 main .achievement .achievement-container .achievement-content .achievement-box-container .achievement-box:hover{
@@ -262,6 +263,7 @@ main .plans .plans-container .plan-box-container .plan-box {
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     transition: all 0.3s ease;
     background: #fff;
+    border-radius: 5px;
 }
 
 main .plans .plans-container .plan-box-container .plan-box:hover {
