@@ -2,6 +2,11 @@
 
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Telex', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1,
 h2,
@@ -15,17 +20,18 @@ h6 {
 
 p {
     font-family: 'Telex', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: 400;
     color: #444343;
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 72px;
     font-weight: 700;
-    line-height: 76px;
+    line-height: 84px;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -51,11 +57,189 @@ h3 {
     padding: 13px 25px;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
-    border: 2pc solid #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
     transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #005FAC;
     color: #fff;
 }
+
+.container {
+    width: 1340px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Styles */
+
+header {
+    background: url(../images/banner/banner3.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-container {
+    width: 1340px;
+}
+
+header .header-container>* {
+    width: 50%;
+}
+
+header .header-container .header-right {
+    text-align: right;
+}
+
+header .header-container .header-title {
+    margin-bottom: 30px;
+}
+
+header .header-container .header-desc {
+    color: #fff;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+
+/* Failure Styles */
+
+main .failure {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .failure .failure-container {
+    gap: 70px;
+}
+
+main .failure .failure-container>* {
+    width: 50%;
+}
+
+main .failure .failure-container .failure-img img {
+    width: 100%;
+}
+
+main .failure .failure-container .failure-content {
+    padding-left: 30px;
+}
+
+main .failure .failure-container .failure-content .failure-title {
+    margin-bottom: 30px;
+}
+
+main .failure .failure-container .failure-content .failure-desc {
+    margin-bottom: 20px;
+}
+
+main .failure .failure-container .failure-content .failure-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .failure .failure-container .failure-content .failure-ul li a {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    font-family: 'Telex', sans-serif;
+    word-spacing: 2px;
+}
+
+main .failure .failure-container .failure-content .failure-ul li a i {
+    color: #16D887;
+    margin-right: 3px;
+}
+
+/* Plans Styles */
+
+main .plans {
+    padding: 100px 0;
+    background: #F8F9FA;
+}
+
+main .plans .plans-container {
+    width: 1340px;
+    margin: auto;
+    text-align: center;
+}
+
+main .plans .plans-container .plans-title {
+    margin-bottom: 80px;
+}
+
+main .plans .plans-container .plan-box-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .plans .plans-container .plan-box-container .plan-box {
+    padding: 70px 30px;
+    width: 23%;
+    border: 1px solid #eee;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    transition: all 0.3s ease;
+}
+
+main .plans .plans-container .plan-box-container .plan-box:hover {
+    box-shadow: none;
+}
+
+main .plans .plans-container .plan-box-container .plan-box img {
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+main .plans .plans-container .plan-box-container .plan-box .plan-box-title {
+    margin-bottom: 10px;
+}
+
+main .plans .plans-container .plan-box-container .plan-box .plan-box-desc {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+/* Contact Styles */
+
+main .contact {
+    padding: 100px 0;
+}
+
+main .contact .contact-container {
+    width: 1340px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(2, 0, 36, 1) 0%, rgba(2, 0, 36, 1) 0%, rgba(2, 0, 36, 1) 0%, rgba(0, 95, 172, 1) 0%, rgba(0, 212, 255, 0) 100%), url(../images/watch.png);
+    padding: 80px 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+}
+
+main .contact .contact-container>* {
+    width: 50%;
+}
+
+main .contact .contact-container .contact-left .contact-title{
+    color: #fff;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+
+/* Footer Styles */
+
