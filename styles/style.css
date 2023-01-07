@@ -181,7 +181,7 @@ main .achievement {
 }
 
 main .achievement .achievement-title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 main .achievement .achievement-container {
@@ -222,8 +222,12 @@ main .achievement .achievement-container .achievement-content .achievement-box-c
     margin-bottom: 10px;
 }
 
+main .achievement .achievement-container .achievement-content .achievement-box-container .achievement-box .achievement-box-desc{
+    text-align: left;
+}
+
 main .achievement .achievement-container .achievement-img img{
-    width: 100%;
+    width: 600px;
     border-radius: 50%;
     margin-left: 50px;
 }
@@ -274,9 +278,10 @@ main .plans .plans-container .plan-box-container .plan-box .plan-box-title {
 }
 
 main .plans .plans-container .plan-box-container .plan-box .plan-box-desc {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 29px;
+    color: #737272;
 }
 
 /* Contact Styles */
