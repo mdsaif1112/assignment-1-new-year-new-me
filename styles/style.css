@@ -223,13 +223,13 @@ main .achievement .achievement-container .achievement-content .achievement-box-c
 }
 
 main .achievement .achievement-container .achievement-content .achievement-box-container .achievement-box .achievement-box-desc{
-    text-align: left;
+    text-align: justify;
 }
 
 main .achievement .achievement-container .achievement-img img{
-    width: 600px;
+    width: 550px;
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 /* Plans Styles */
