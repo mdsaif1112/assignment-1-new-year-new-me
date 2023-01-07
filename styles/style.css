@@ -181,7 +181,7 @@ main .achievement {
 }
 
 main .achievement .achievement-title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 main .achievement .achievement-container {
@@ -242,7 +242,7 @@ main .plans .plans-container {
 }
 
 main .plans .plans-container .plans-title {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 main .plans .plans-container .plan-box-container {
