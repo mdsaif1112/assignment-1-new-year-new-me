@@ -48,6 +48,13 @@ h3 {
     color: #151414;
 }
 
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #fff;
+}
+
 .btn {
     font-size: 20px;
     font-weight: 600;
@@ -116,6 +123,7 @@ main .failure {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #F8F9FA;
 }
 
 main .failure .failure-container {
@@ -164,6 +172,62 @@ main .failure .failure-container .failure-content .failure-ul li a i {
     margin-right: 3px;
 }
 
+/* Achievement */
+
+main .achievement {
+    padding: 100px 0;
+    width: 1340px;
+    margin: 0 auto;
+}
+
+main .achievement .achievement-title {
+    margin-bottom: 50px;
+}
+
+main .achievement .achievement-container {
+    gap: 100px;
+}
+
+main .achievement .achievement-container>* {
+    width: 50%;
+}
+
+main .achievement .achievement-container .achievement-content .achievement-box-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .achievement .achievement-container .achievement-content .achievement-box-container .achievement-box {
+    padding: 30px 30px;
+    border: 1px solid #eee;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    width: 49%;
+    transition: all 0.3s ease;
+}
+
+main .achievement .achievement-container .achievement-content .achievement-box-container .achievement-box:hover{
+    box-shadow: none;
+}
+
+main .achievement .achievement-container .achievement-content .achievement-box-container .achievement-box img {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+main .achievement .achievement-container .achievement-content .achievement-box-container .achievement-box .achievement-box-title{
+    margin-bottom: 10px;
+}
+
+main .achievement .achievement-container .achievement-img img{
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
 /* Plans Styles */
 
 main .plans {
@@ -193,6 +257,7 @@ main .plans .plans-container .plan-box-container .plan-box {
     border: 1px solid #eee;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     transition: all 0.3s ease;
+    background: #fff;
 }
 
 main .plans .plans-container .plan-box-container .plan-box:hover {
@@ -235,7 +300,7 @@ main .contact .contact-container>* {
     width: 50%;
 }
 
-main .contact .contact-container .contact-left .contact-title{
+main .contact .contact-container .contact-left .contact-title {
     color: #fff;
     line-height: 55px;
     margin-bottom: 30px;
@@ -243,3 +308,93 @@ main .contact .contact-container .contact-left .contact-title{
 
 /* Footer Styles */
 
+footer {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+footer .footer-container>* {
+    width: 50%;
+}
+
+footer .footer-container .footer-content {
+    padding-right: 80px;
+}
+
+footer .footer-container .footer-content .footer-title {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+footer .footer-container .footer-content .footer-desc {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .footer-container .footer-content .footer-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+footer .footer-container .footer-content .footer-ul li,
+footer .footer-container .footer-content .footer-ul li a {
+    color: #fff;
+    font-family: 'Telex', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+footer .footer-container .footer-content .social-icons {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+footer .footer-container .footer-content .social-icons a img {
+    width: 40px;
+}
+
+footer .footer-container .footer-form {
+    padding-left: 200px;
+}
+
+footer .footer-container .footer-form .footer-form-title {
+    margin-bottom: 30px;
+}
+
+footer .footer-container .footer-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+footer .footer-container .footer-form form input[type="email"] {
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: black;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+}
+
+footer .footer-container .footer-form form input[type="email"]:focus {
+    background: #fff;
+    color: #000;
+    outline: none;
+}
+
+footer .footer-container .footer-form form input[type="submit"]:hover {
+    background-color: #000;
+}
